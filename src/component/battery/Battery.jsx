@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Mobile = () => {
-    let [charge, setCharge] = useState(100)
+    let [charge, setCharge] = useState(90)
     if (charge < 0) {
         setCharge(0)
     } else if (charge > 100) {
